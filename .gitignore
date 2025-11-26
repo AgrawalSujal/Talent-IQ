@@ -1,0 +1,33 @@
+frontend/node_modules/
+backend/node_modules/
+
+frontend/.env*
+backend/.env*
+
+dist/
+
+
+
+# Root level ignores
+.env
+node_modules/
+package-lock.json
+
+# Ignore frontend
+frontend/node_modules/
+frontend/.env*
+frontend/dist/
+
+# Ignore backend
+backend/node_modules/
+backend/.env*
+backend/dist/
+
+# Ignore environment variable files
+frontend/.env
+backend/.env
+
+# Ignore node_modules directories
+node_modules/
+frontend/node_modules/
+backend/node_modules/
